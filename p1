@@ -1,0 +1,9 @@
+1.pwd
+2.hdfs dfs -ls /
+3. hdfs dfs -ls /user
+4. hdfs dfs -mkdir /user/root/demodir
+5. hdfs dfs -ls /user/root/
+6. cd Desktop 
+7. hdfs dfs -copyFromLocal temp.txt /user/root/demodir
+8. hdfs dfs -ls /user/root/demodir
+9.hdfs dfs -cat /user/root/demodir/temp.txt
